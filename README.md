@@ -21,7 +21,7 @@ The solver implements four different CSP algorithms:
 1. **Backtracking**: Basic recursive backtracking without heuristics
 2. **Backtracking with MRV**: Uses Minimum Remaining Values heuristic to choose variables
 3. **Forward Checking**: Eliminates values from domains proactively
-4. **Forward Checking with MRV**: Combines forward checking with intelligent variable ordering
+4. **Forward Checking with MRV**: Combines both the forward check and MRV heuristics
 
 ### Performance Metrics
 
